@@ -62,12 +62,12 @@ body {
   transition: 0.3s;
 }
 #share {
-  color: #fff;
   margin-left: 10px;
   align-self: center;
 }
 #share i{
-  font-size: 40px;
+  color: #25D366;
+  font-size: 35px;
 }
 
 @media screen and (max-width: 600px) {
