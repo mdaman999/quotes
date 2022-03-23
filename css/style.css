@@ -55,6 +55,7 @@ body {
   width: 90%;
   border: none;
   border-radius: 10px;
+  background-color: #fff;
   text-transform: uppercase;
   letter-spacing: 7px;
   font-size: 17px;
@@ -66,7 +67,7 @@ body {
   align-self: center;
 }
 #share i{
-  color: #25D366;
+  color: #fff;
   font-size: 35px;
 }
 
