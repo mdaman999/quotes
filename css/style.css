@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Patrick Hand", cursive;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #3803f5, rgb(4, 133, 253));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#heading{
+  color: #fff;
+  text-underline-offset: 5px;
+}
+#box {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: rgb(4, 133, 253);
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px#444;
+}
+#textarea{
+  display: flex;
+  flex-direction: column;
+}
+#quotes {
+  font-size: 23px;
+}
+#close{
+  text-align: end;
+}
+#author {
+  color: #373737;
+  font-size: 18px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: right;
+}
+#btn {
+  height: 40px;
+  display: flex;
+}
+#next {
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 17px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+#share {
+  color: #fff;
+  margin-left: 10px;
+  align-self: center;
+}
+#share i{
+  font-size: 22px;
+}
+
+@media screen and (max-width: 600px) {
+    #box {
+      width: 90%;
+      height: 80%;
+    }
+  }
