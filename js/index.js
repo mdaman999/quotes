@@ -14,7 +14,6 @@ async function fun(url){
     quotes.innerText=jsonfile[index].text;
     if(jsonfile[index].author==null)  author.innerText="unKnown";
     else author.innerText="By: "+jsonfile[index].author;
-
 }
 
 // for initiaal quote load
